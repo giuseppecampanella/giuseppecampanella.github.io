@@ -197,7 +197,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #fff; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -222,7 +222,7 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: #11ABB0;
 }
 #about .download .button:hover {
    background: #fff;
@@ -238,6 +238,38 @@ ul#nav li.current a { color: #F06000; }
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
+#badge-name {
+	color: #333;
+	display: block;
+	font-size: 1.3rem;
+	line-height: 1.1em;
+	margin: 0 8px 8px;
+}
+
+#badge-issuer {
+	color: #666;
+	font-size: 1.2rem;
+	font-style: italic;
+	line-height: 1.1em;
+	margin: 0 8px;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+#resume .border {
+  width: 150px;
+  height: 180px;
+  border: 1px solid #e5e5e5 ;
+  color: #333;
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: .88rem;
+  padding: 22px 0 0;
+  text-align: center;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
 #resume {
    background: #fff;
    padding-top: 90px;
@@ -245,8 +277,8 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+/* #resume a, #resume a:visited  { color: #11ABB0; } */
+/* #resume a:hover, #resume a:focus { color: #313131; } */
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -264,7 +296,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work, .hackaton, .projects {
+.education, .work, .hackaton, .projects, .badges, .certifications{
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
@@ -289,6 +321,22 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume .keyword {
   color: #F06000;
+}
+
+#resume .download .button {
+   color: #fff;
+   margin-top: 6px;
+   background: #11ABB0;
+}
+
+#resume .download .button:hover {
+  color: #fff;
+   background: #11ABB0;
+}
+
+#resume .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
 }
 /*----------------------------------------------*/
 /*	Skill Bars
